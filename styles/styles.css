@@ -138,7 +138,7 @@ li {
 
 #f3head {
   text-align: center;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .feature3 {
@@ -159,4 +159,32 @@ li {
 h4 {
   color: rgb(255, 193, 7)
 }
+
+.feature4_bg {
+  background-image: url("../assets/top-score-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 120vh;  
+}
+
+.feature5_bg {
+  background-image: url("../assets/newsletter.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 120vh;  
+}
+
+.feature5 {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.feature5_text {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+}
+
 /*font-family: 'Bebas Neue', cursive;*/
