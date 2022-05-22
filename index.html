@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chapter 3</title>
+    <title>Challenge Chapter 3</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
         <div class="container">
         <header class="d-flex flex-wrap">
           <ul class="nav col-2 justify-content-start">
-            <li><a href="#" class="nav-link px-2 link-light fw-bold text-uppercase" style="font-size:1.302vw;" id="font-open">Logo</a></li>
+            <li><a href="#" class="nav-link px-2 link-light fw-bold text-uppercase" style="font-size: 1.302vw;" id="font-open">Logo</a></li>
           </ul>
           <ul class="nav col-7 justify-content-center">
             <li><a href="#" class="nav-link px-2 link-light text-uppercase" id="font-open">Home</a></li>
@@ -91,10 +91,10 @@
         <div class="feature2_text1">What's so special?</div>
         <div class="feature2_text2">Features</div>
           <ul>
-            <li class="text-warning text-uppercase" style="margin-top:70px; font-size:2.083vw;">Traditional Games</li>
+            <li class="text-warning text-uppercase" style="margin-top: 70px; font-size: 2.083vw;">Traditional Games</li>
             <p style="margin-top:10px">If you miss your childhood, we provide <br>many traditional games here</p>
-            <li class="text-warning text-uppercase" style="margin-top:70px; font-size:2.083vw;">Game Suit</li>
-            <li class="text-warning text-uppercase" style="margin-top:70px; font-size:2.083vw;">TBD</li>           
+            <li class="text-warning text-uppercase" style="margin-top: 70px; font-size: 2.083vw;">Game Suit</li>
+            <li class="text-warning text-uppercase" style="margin-top: 70px; font-size: 2.083vw;">TBD</li>           
           </ul>
         </div>
       </div>
@@ -126,24 +126,90 @@
 
     <!--Features 4-->
     <div class="feature4_bg">  
-        <div class="feature4" id="quotes">
-          <div style="display: flex">
-            <div class="feature4_text1">Top scores</div>
-          </div>
-          <div style="display: flex">
-            <div class="feature4_text2">This top score from various games provided on this platform</div>
-          </div>
-          <div class="feature4_button d-grid gap-2 col-3"><button type="button" class="btn btn-warning btn-lg fw-bold" style="font-size:1.302vw;">See more</button></div>
-    </div>
+      <div class="feature4" id="quotes">
+        <div class="container-fluid align-self-center text-nowrap">
+          <div class="feature4_text1 ms-5">Top scores</div>
+          <div class="feature4_text2 ms-5">This top score from various games provided<br>on this platform</div>
+          <div class="feature4_button d-grid gap-2 col-6 ms-5"><button type="button" class="btn btn-warning btn-lg fw-bold" style="font-size:1.302vw;">See more</button></div>
+        </div>  
 
     <!--Features 4 Card-->
-    <div>
+    <div class="container-fluid align-self-center">
+    <div class="row d-flex justify-content-end">
+      <div class="col-6 my-2 me-4">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <div class="row align-content-start">
+              <div class="col-3 d-flex">
+                <img src="./assets/evan-lahti.jpg"
+                  class="rounded-circle img-fluid shadow-1" width="70" height="70">
+              </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-warning ms-4 mb-0" style="font-size: 1.562vw">Evan Lahti</p>
+                <p class="text-white-50 ms-4 mb-0">PC Gamer</p>
+              </div>
+            </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-white fw-light mt-3">"One of gaming highlights of the year."</p>
+                <p class="text-white-50 mb-0">June 18, 2021</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-evenly">
+      <div class="col-6 my-2 me-5">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <div class="row align-content-start">
+              <div class="col-3 d-flex">
+                <img src="./assets/jada-griffin.jpg"
+                  class="rounded-circle img-fluid shadow-1" width="70" height="70">
+              </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-warning ms-4 mb-0" style="font-size: 1.562vw">Jada Griffin</p>
+                <p class="text-white-50 ms-4 mb-0">Nerdreactor</p>
+              </div>
+            </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-white fw-light mt-3">"The next big thing in the world of streaming<br>and survival games."</p>
+                <p class="text-white-50 mb-0">July 10, 2021</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-end">
+      <div class="col-6 my-2 me-5">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <div class="row align-content-start">
+              <div class="col-3 d-flex">
+                <img src="./assets/aaron-williams.jpg"
+                  class="rounded-circle img-fluid shadow-1" width="70" height="70">
+              </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-warning ms-4 mb-0" style="font-size: 1.562vw">Aaron Williams</p>
+                <p class="text-white-50 ms-4 mb-0">Uproxx</p>
+              </div>
+            </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-white fw-light mt-3">"Snoop Dogg Playing The Wildly Entertaining<br>'SOS' is Ridiculous."</p>
+                <p class="text-white-50 mb-0">December 24, 2018</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      </div>
 
     </div>
+  </div>
 
     <!--Features 5-->
     <div class="feature5_bg"> 
-      <div class=feature5>
+      <div class="feature5">
         <div class="d-flex w-50 mx-auto justify-content-center">
           <img src="./assets/skull.png" class="img-fluid rounded-pill">
         </div>
@@ -171,8 +237,8 @@
             <div class="row g-0" style="margin-top: 50px;">
               <div class="col-4">
                 <div class="form-floating">
-                  <input type="email" class="form-control bg-dark text-warning border-dark" id="floatingInputGrid" placeholder="name@example.com" value="youremail@binar.co.id">
-                  <label for="floatingInputGrid" class="text white" style="font-size: 1.302vw;">Your email address</label>
+                  <input type="email" class="form-control bg-dark text-warning border-dark" id="floatingInputGrid"  placeholder="name@example.com" value="youremail@binar.co.id">
+                  <label for="floatingInputGrid" class="text white" style="font-size: 0.937vw;">Your email address</label>
                 </div>
               </div>
               <div class="col-4">
@@ -197,10 +263,10 @@
               <li><a href="#quotes" class="nav-link px-2 link-light text-uppercase" id="font-open">Quotes</a></li>
             </ul>
           <div class="nav col-3 justify-content-end py-3 align-content-center border-bottom border-white" style="--bs-border-opacity: .5;">
-            <li class="nav-item mx-4"><a href="https:facebook.com"><img src="./assets/facebook.svg" class="img-fluid"></a></li>
-            <li class="nav-item mx-4"><a href="https:twitter.com"><img src="./assets/twitter.svg" class="img-fluid"></a></li>
-            <li class="nav-item mx-4"><a href="https:youtube.com"><img src="./assets/vector.svg" class="img-fluid"></a></li>
-            <li class="nav-item mx-4"><a href="https:twitch.tv"><img src="./assets/twitch.svg" class="img-fluid"></a></li>
+            <li class="nav-item mx-3"><a href="https:facebook.com"><img src="./assets/facebook.svg" class="img-fluid"></a></li>
+            <li class="nav-item mx-3"><a href="https:twitter.com"><img src="./assets/twitter.svg" class="img-fluid"></a></li>
+            <li class="nav-item mx-3"><a href="https:youtube.com"><img src="./assets/vector.svg" class="img-fluid"></a></li>
+            <li class="nav-item mx-3"><a href="https:twitch.tv"><img src="./assets/twitch.svg" class="img-fluid"></a></li>
           </div>
           </div>
           </div>
