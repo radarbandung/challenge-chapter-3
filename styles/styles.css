@@ -1,4 +1,4 @@
-.navigation {
+.navtop {
   text-transform: capitalize;
   font-weight: bold;
   font-size: 14px;
@@ -185,6 +185,19 @@ h4 {
 .feature5_text {
   font-family: 'Open Sans', sans-serif;
   margin-top: 25px;
+}
+
+.navigationbot {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: end;
+  background-color: black;
+}
+
+#font-open {
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*font-family: 'Bebas Neue', cursive;*/
